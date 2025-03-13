@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirstComponentComponent } from './components/first-component/first-component.component';
 import { OwnComponentComponent } from './components/own-component/own-component.component';
+import { ParentDataComponent } from './components/parent-data/parent-data.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponentComponent,
-    OwnComponentComponent
+    OwnComponentComponent,
+    ParentDataComponent
   ],
   imports: [
     BrowserModule,
