@@ -5,6 +5,9 @@
       Nome: {{ animal.name }} - Tipo: {{ animal.type }}
       <button (click)="showAge(animal)">Show Age</button>
       <button (click)="removeAnimal(animal)">Excluir</button>
+      <button>
+        <a routerLink="/list/{{ animal.id }}">Detalhe do animal</a>
+      </button>
     </li>
   </ul>
   <p>{{ animalDetails }}</p>
