@@ -1,0 +1,14 @@
+{
+  "animals": [
+    {"id": 1, "name": "Turca", "Type": "Dog", "Age": 4},
+    {"id": 2, "name": "Mia", "Type": "Cat", "Age": 2},
+    {"id": 3, "name": "Rex", "Type": "Dog", "Age": 6},
+    {"id": 4, "name": "Bobby", "Type": "Rabbit", "Age": 1},
+    {"id": 5, "name": "Luna", "Type": "Cat", "Age": 3},
+    {"id": 6, "name": "Tom", "Type": "Hamster", "Age": 1},
+    {"id": 7, "name": "Nina", "Type": "Dog", "Age": 5},
+    {"id": 8, "name": "Charlie", "Type": "Parrot", "Age": 7},
+    {"id": 9, "name": "Daisy", "Type": "Turtle", "Age": 10},
+    {"id": 10, "name": "Max", "Type": "Horse", "Age": 8}
+  ]
+}
