@@ -1,12 +1,15 @@
+<h1>HEADER</h1>
+<nav>
+  <a routerLink="/">HOME</a>
+  <hr />
+  <a routerLink="/list">Lista</a>
+  <hr />
+  <a routerLink="change-number">Mudar numero</a>
+  <hr />
+  <a routerLink="directives">Diretivas</a>
+  <hr />
+  <a routerLink="list-render">Reder lista</a>
+</nav>
 <h1>Hello Word Angular</h1>
-<app-first-component></app-first-component>
-<app-own-component></app-own-component>
-
-<app-parent-data [name]="userName" [personInfo]="person"></app-parent-data>
-<app-directives></app-directives>
-<app-if-render></app-if-render>
-<app-events></app-events>
-<app-emitter></app-emitter>
-<app-list-render></app-list-render>
-<app-pipes></app-pipes>
-<app-two-way-binding></app-two-way-binding>
+<router-outlet></router-outlet>
+<h1>FOOTER</h1>
