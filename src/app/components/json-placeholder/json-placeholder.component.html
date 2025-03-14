@@ -2,9 +2,10 @@
   <button (click)="addPost()">Adicionar novo post</button>
   <ul>
     <li *ngFor="let post of posts">
-      <p>user id: {{ post.id }}</p>
       <p>title: {{ post.title }}</p>
-      <p>corpo do post: {{ post.body }}</p>
+      <button>
+        <a routerLink="/json-placeholder/{{ post.id }}">Ver mais</a>
+      </button>
     </li>
   </ul>
 </div>

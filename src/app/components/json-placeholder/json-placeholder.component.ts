@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
+import { ActivatedRoute } from '@angular/router';
+import { JsonPlaceHolderInterface } from 'src/app/JsonPlaceholder';
 import { JsonPlaceholderService } from 'src/app/services/json-placeholder.service';
 
 @Component({
@@ -20,6 +21,7 @@ export class JsonPlaceholderComponent implements OnInit {
       .getPosts()
       .subscribe((posts) => (this.posts = posts));
   }
+
   addPost() {
     const novoPost = { title: 'Novo Post', body: 'Conteudo do post' };
 
