@@ -4,6 +4,7 @@ import { FirstComponentComponent } from './components/first-component/first-comp
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
 import { DirectivesComponent } from './components/directives/directives.component';
+import { JsonPlaceholderComponent } from './components/json-placeholder/json-placeholder.component';
 
 const routes: Routes = [
   { path: '', component: FirstComponentComponent },
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: 'change-number', component: ChangeNumberComponent },
   { path: 'directives', component: DirectivesComponent },
   { path: 'list-render', component: ListRenderComponent },
+  { path: 'json-placeholder', component: JsonPlaceholderComponent },
 ];
 
 @NgModule({
