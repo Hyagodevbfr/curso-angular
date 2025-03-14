@@ -17,6 +17,8 @@ import { ListRenderComponent } from './components/list-render/list-render.compon
 import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { JsonPlaceholderComponent } from './components/json-placeholder/json-placeholder.component';
+import { ItemDetailComponent } from './components/item-detail/item-detail.component';
+import { PlaceholderDetailComponent } from './components/placeholder-detail/placeholder-detail.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { JsonPlaceholderComponent } from './components/json-placeholder/json-pla
     PipesComponent,
     TwoWayBindingComponent,
     JsonPlaceholderComponent,
+    ItemDetailComponent,
+    PlaceholderDetailComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
