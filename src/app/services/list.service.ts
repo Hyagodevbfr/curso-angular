@@ -1,3 +1,4 @@
+import { Car } from '../CarInterface';
 import { Animal } from './../Animal';
 import { Injectable } from '@angular/core';
 
@@ -9,5 +10,9 @@ export class ListService {
 
   remove(animals: Animal[], animal: Animal) {
     return animals.filter((a) => animal.name != a.name);
+  }
+
+  removeCar(cars: Car[], car: Car) {
+    return cars.filter((a) => car.model != a.model);
   }
 }
