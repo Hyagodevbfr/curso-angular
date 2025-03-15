@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { JsonPlaceHolderInterface } from 'src/app/JsonPlaceholder';
 import { JsonPlaceholderService } from 'src/app/services/json-placeholder.service';
 
 @Component({
